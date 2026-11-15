@@ -2,6 +2,19 @@
 
 左侧栏里的截止任务看板。点左侧栏的「DDL 看板」图标打开面板。
 
+## 安装
+
+要求 DeepSeek Harness `0.2.2-rc.3` 或更新。在 DSH 里：左侧栏 **Plugins** → 右上 **Add plugin**（添加插件），然后填其中一种：
+
+| 方式 | 填什么 | 说明 |
+| --- | --- | --- |
+| Git 仓库（推荐） | `https://github.com/painter-git/dsh-ddl-board` | 安装会固定到当时的 commit；升级时移除后重新安装 |
+| 本地文件夹 | `D:\plugins\ddl-board`（绝对路径） | 解压 zip 后填该文件夹；文件夹不能删或移动 |
+| 压缩包 | `D:\plugins\ddl-board-1.0.0.tgz`（绝对路径） | 单文件；该文件要保留 |
+| npm 包 | 发布后的包名 | 需要先发布，可一键升级 |
+
+装完刷新页面，左侧栏 Schedules 之后会出现 **DDL 看板**。卸载：Plugins → 打开该 bundle 页面 → 移除。
+
 ## 功能
 
 - **新建 DDL**：填写事件名称、截止时间（必填）、预计完成时间（可选）和备注。
