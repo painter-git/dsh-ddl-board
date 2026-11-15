@@ -1,0 +1,3 @@
+- insert:
+    - id: ddl-board
+      name: '@local/ddl-board'

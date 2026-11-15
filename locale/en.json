@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "DDL board",
+    "description": "A deadline board in the left sidebar: give each task a due time and an optional estimated finish, break it into one level of subtasks with their own estimates, and tick work off. Times are typed, with a two-digit year (for example 26-11-20 18:00; a date alone means 12:00). Tasks are ordered estimate-first, falling back to the due time when no estimate is set; subtasks sort by their estimate and keep their added order when untimed. The Host saves the board to $DSH_HOME/ddl-board/state.json, and the page falls back to browser storage when that route is unreachable."
+  }
+}
